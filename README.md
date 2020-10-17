@@ -10,3 +10,13 @@ $ npm start
 ```
 
 Then visit `localhost:1234` in a [browser](https://www.firefox.com/).
+
+## Deploy
+
+```text
+$ npm run deploy
+```
+
+[Final result](https://css-typing-effect.netlify.app).
+
+I think JS is a better idea, because it's difficult to get this to line up and control fine details.
