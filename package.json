@@ -7,7 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "npx parcel ./src/index.html",
         "build": "npx parcel build ./src/index.html",
-        "deploy": "netlify deploy --dir=dist --prod"
+        "deploy": "npm run build && netlify deploy --dir=dist --prod"
     },
     "repository": {
         "type": "git",
