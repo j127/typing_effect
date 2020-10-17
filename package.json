@@ -1,0 +1,24 @@
+{
+    "name": "@j127/typing_effect",
+    "version": "0.1.0",
+    "description": "CSS-only. Based on [this](https://dev.to/stokry/typing-effect-without-javascript-54ol).",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npx parcel ./public/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/j127/typing_effect.git"
+    },
+    "author": "J. Cohen <hostelmarketing@gmail.com> (https://github.com/j127)",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/j127/typing_effect/issues"
+    },
+    "homepage": "https://github.com/j127/typing_effect#readme",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.4",
+        "sass": "^1.27.0"
+    }
+}
